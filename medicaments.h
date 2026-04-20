@@ -6,8 +6,15 @@
 typedef struct {
     char nom[50];
     int code;
-    int jf, mf, af;
-    int jp, mp, ap;
+
+    int jourFab;
+    int moisFab;
+    int anneeFab;
+
+    int jourPer;
+    int moisPer;
+    int anneePer;
+
     float prix;
     int vendus;
     int stock;
